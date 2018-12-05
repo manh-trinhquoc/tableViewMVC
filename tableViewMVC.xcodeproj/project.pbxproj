@@ -14,6 +14,8 @@
 		F51AED7021B7BF9300235BB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F51AED6E21B7BF9300235BB7 /* LaunchScreen.storyboard */; };
 		F51AED7921B7C01F00235BB7 /* DRHTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51AED7721B7C01F00235BB7 /* DRHTableViewCell.swift */; };
 		F51AED7A21B7C01F00235BB7 /* DRHTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F51AED7821B7C01F00235BB7 /* DRHTableViewCell.xib */; };
+		F51AED7C21B7C7A700235BB7 /* DRHTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51AED7B21B7C7A700235BB7 /* DRHTableViewController.swift */; };
+		F51AED7E21B7E96E00235BB7 /* DRHTableViewDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51AED7D21B7E96E00235BB7 /* DRHTableViewDataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		F51AED7121B7BF9300235BB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F51AED7721B7C01F00235BB7 /* DRHTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DRHTableViewCell.swift; sourceTree = "<group>"; };
 		F51AED7821B7C01F00235BB7 /* DRHTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DRHTableViewCell.xib; sourceTree = "<group>"; };
+		F51AED7B21B7C7A700235BB7 /* DRHTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DRHTableViewController.swift; sourceTree = "<group>"; };
+		F51AED7D21B7E96E00235BB7 /* DRHTableViewDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DRHTableViewDataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 				F51AED6721B7BF9300235BB7 /* ViewController.swift */,
 				F51AED7721B7C01F00235BB7 /* DRHTableViewCell.swift */,
 				F51AED7821B7C01F00235BB7 /* DRHTableViewCell.xib */,
+				F51AED7B21B7C7A700235BB7 /* DRHTableViewController.swift */,
+				F51AED7D21B7E96E00235BB7 /* DRHTableViewDataModel.swift */,
 				F51AED6921B7BF9300235BB7 /* Main.storyboard */,
 				F51AED6C21B7BF9300235BB7 /* Assets.xcassets */,
 				F51AED6E21B7BF9300235BB7 /* LaunchScreen.storyboard */,
@@ -143,6 +149,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F51AED7E21B7E96E00235BB7 /* DRHTableViewDataModel.swift in Sources */,
+				F51AED7C21B7C7A700235BB7 /* DRHTableViewController.swift in Sources */,
 				F51AED6821B7BF9300235BB7 /* ViewController.swift in Sources */,
 				F51AED6621B7BF9300235BB7 /* AppDelegate.swift in Sources */,
 				F51AED7921B7C01F00235BB7 /* DRHTableViewCell.swift in Sources */,
