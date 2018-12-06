@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol DRHTableViewDataModelDelegate: Class {
+protocol DRHTableViewDataModelDelegate: class {
     func didReceiveDataUpdate(data: [DRHTableViewDataModelItem])
     func didFailDataUpdateWithError(error: Error)
 }
